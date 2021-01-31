@@ -1,0 +1,57 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Dashboard"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Add Some Data"
+        android:textStyle="bold"
+        android:textColor="#222"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="Name"
+        android:layout_marginTop="15dp"
+        android:id="@+id/et_name"
+        android:inputType="text"
+        android:layout_height="50dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="Mobile No"
+        android:inputType="number"
+        android:layout_marginTop="15dp"
+        android:id="@+id/et_mobile"
+        android:layout_height="50dp"/>
+    <Button
+        android:layout_marginTop="15dp"
+        android:layout_width="100dp"
+        android:gravity="center"
+        android:text="Add"
+        android:id="@+id/btn_add"
+        android:textAllCaps="false"
+        android:layout_height="60dp"/>
+
+    <Button
+        android:layout_marginTop="15dp"
+        android:layout_width="100dp"
+        android:gravity="center"
+        android:text="View Data"
+        android:id="@+id/btn_view"
+        android:textAllCaps="false"
+        android:layout_height="60dp"/>
+    <Button
+        android:layout_marginTop="15dp"
+        android:layout_width="100dp"
+        android:gravity="center"
+        android:text="Logout"
+        android:id="@+id/btn_logout"
+        android:textAllCaps="false"
+        android:layout_height="60dp"/>
+</LinearLayout>

@@ -1,0 +1,21 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Image View -->
+    <ImageView
+        android:layout_width="167dp"
+        android:layout_height="187dp"
+        android:src="@drawable/mario"/>
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:indeterminate="false"/>
+
+
+</LinearLayout>
